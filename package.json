@@ -1,0 +1,23 @@
+{
+  "name": "codifica",
+  "version": "1.0.0",
+  "description": "Questões do curso de Dev Full Stack da Codifica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismendins/dev-fullstack-codifica.git"
+  },
+  "author": "Isabella Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismendins/dev-fullstack-codifica/issues"
+  },
+  "homepage": "https://github.com/ismendins/dev-fullstack-codifica#readme",
+  "dependencies": {
+    "eslint": "^9.27.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
