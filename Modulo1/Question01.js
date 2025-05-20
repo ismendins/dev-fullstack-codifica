@@ -2,10 +2,8 @@
 // utilizando uma estrutura de controle if.
 const prompt = require("prompt-sync")();
 
-// Lendo input do usuário
 const number = prompt("Informe um número inteiro: ");
 
-// Função para avaliar se é par ou impar
 function isEvenOrOdd (number){
     const divisor = 2;
     if (number % divisor == 0){
@@ -16,5 +14,5 @@ function isEvenOrOdd (number){
     }
 }
 
-// Chamando a função
+
 isEvenOrOdd(number);

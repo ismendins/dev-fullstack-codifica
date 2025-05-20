@@ -1,10 +1,6 @@
 // Implemente um programa que recebe uma nota de 0 a 10 e classifica como
 // "Aprovado", "Recuperação", ou "Reprovado" utilizando if-else if.
 
-
-// Validar os dados
-
-// Calcular o veredito de aprovação assumindo que a nota para aprovação é 6 e para recuperação é 5
 function calculateAlumnFinalGrade(grade){
     const minimalScoreForApproval = 6;
     const minimalScoretoRetakeClass = 5;
@@ -22,7 +18,6 @@ function calculateAlumnFinalGrade(grade){
 
 const prompt = require("prompt-sync")();
 
-// Lendo input do usuário
 const grade = prompt("Informe a nota do aluno: ");
 
 calculateAlumnFinalGrade(grade);

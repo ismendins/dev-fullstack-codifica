@@ -7,7 +7,6 @@ const beginningTeenagehood = 12;
 const beginningAdulthood = 18;
 const beginningElderhood = 60;
 
-//  Calculando as idades e os períodos de vida
 function calculateChildhoodandTeenageHood(age){
     if (beginningChildhood <= age && age < beginningTeenagehood){
         console.log("A pessoa informada é uma criança!");
@@ -26,13 +25,10 @@ function calculateAdulthoodAndElderhood(age){
     }
 }
 
-// Função para exibir os resultados
 function calculateGeneration(age){
-
     if (age < beginningAdulthood){
         calculateChildhoodandTeenageHood(age);
     }
-    
     if (age >= beginningAdulthood){
         calculateAdulthoodAndElderhood(age);
     }
@@ -40,7 +36,6 @@ function calculateGeneration(age){
 
 const prompt = require("prompt-sync")();
 
-// Lendo input do usuário
 const age = prompt("Informe a idade da pessoa: ");
 
 calculateGeneration(age);
